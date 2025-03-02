@@ -59,14 +59,7 @@ for key in combatants:
     i += 1
 for i in range(2):
     choice = input("\nChoose combatant {i}: ")
-    if choice == 1:
-        selection = "Goblin 1"
-    elif choice == 2:
-        selection = "Goblin 2"
-    elif choice == 3:
-        selection = "Fighter"
-    elif choice == 4:
-        selection = "Sorcerer"
+    combatant = combatants
     
 print(f"\n{combatants[first_combatant]} vs {combatants[second_combatant]}")
 print("\nRound 1: FIGHT!")
